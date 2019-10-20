@@ -2,7 +2,7 @@ matrix:
   include:
     - language: node_js
       node_js:
-        - "10"
+        - "10.13.0"
       before script:
         - npm i
         - npm run lint
